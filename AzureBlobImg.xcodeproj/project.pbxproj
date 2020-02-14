@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144B95BACB5AC0A0B7E00DEA /* Pods_AzureBlobImg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0589A917AD76048548356C /* Pods_AzureBlobImg.framework */; };
+		1A8FCACA23D89D8000E9100B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FCAC923D89D8000E9100B /* AppDelegate.swift */; };
+		1A8FCACC23D89D8000E9100B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FCACB23D89D8000E9100B /* SceneDelegate.swift */; };
+		1A8FCACE23D89D8000E9100B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FCACD23D89D8000E9100B /* ViewController.swift */; };
+		1A8FCAD123D89D8000E9100B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FCACF23D89D8000E9100B /* Main.storyboard */; };
+		1A8FCAD323D89D8100E9100B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FCAD223D89D8100E9100B /* Assets.xcassets */; };
+		1A8FCAD623D89D8100E9100B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FCAD423D89D8100E9100B /* LaunchScreen.storyboard */; };
+		1A8FCAE123D89D8100E9100B /* AzureBlobImgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FCAE023D89D8100E9100B /* AzureBlobImgUITests.swift */; };
+		1A8FCAEC23D89EB400E9100B /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FCAEB23D89EB400E9100B /* a.jpg */; };
+		BDE7459F508458B37BF503B3 /* Pods_AzureBlobImg_AzureBlobImgUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B9270145A764D685098B12 /* Pods_AzureBlobImg_AzureBlobImgUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A8FCADD23D89D8100E9100B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A8FCABE23D89D8000E9100B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8FCAC523D89D8000E9100B;
+			remoteInfo = AzureBlobImg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4DD04C5A2149EBAE6839BC /* Pods-AzureBlobImg-AzureBlobImgUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureBlobImg-AzureBlobImgUITests.release.xcconfig"; path = "Target Support Files/Pods-AzureBlobImg-AzureBlobImgUITests/Pods-AzureBlobImg-AzureBlobImgUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A8FCAC623D89D8000E9100B /* AzureBlobImg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureBlobImg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8FCAC923D89D8000E9100B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A8FCACB23D89D8000E9100B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A8FCACD23D89D8000E9100B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A8FCAD023D89D8000E9100B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A8FCAD223D89D8100E9100B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A8FCAD523D89D8100E9100B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A8FCAD723D89D8100E9100B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8FCADC23D89D8100E9100B /* AzureBlobImgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzureBlobImgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8FCAE023D89D8100E9100B /* AzureBlobImgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureBlobImgUITests.swift; sourceTree = "<group>"; };
+		1A8FCAE223D89D8100E9100B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8FCAEB23D89EB400E9100B /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		2E2044555DCBA5E36226D452 /* Pods-AzureBlobImg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureBlobImg.debug.xcconfig"; path = "Target Support Files/Pods-AzureBlobImg/Pods-AzureBlobImg.debug.xcconfig"; sourceTree = "<group>"; };
+		41BD54167066A100F4C60388 /* Pods-AzureBlobImg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureBlobImg.release.xcconfig"; path = "Target Support Files/Pods-AzureBlobImg/Pods-AzureBlobImg.release.xcconfig"; sourceTree = "<group>"; };
+		8F2FE09AEE535A4EF1548FAE /* Pods-AzureBlobImg-AzureBlobImgUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureBlobImg-AzureBlobImgUITests.debug.xcconfig"; path = "Target Support Files/Pods-AzureBlobImg-AzureBlobImgUITests/Pods-AzureBlobImg-AzureBlobImgUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98B9270145A764D685098B12 /* Pods_AzureBlobImg_AzureBlobImgUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureBlobImg_AzureBlobImgUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0589A917AD76048548356C /* Pods_AzureBlobImg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureBlobImg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8FCAC323D89D8000E9100B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144B95BACB5AC0A0B7E00DEA /* Pods_AzureBlobImg.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8FCAD923D89D8100E9100B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE7459F508458B37BF503B3 /* Pods_AzureBlobImg_AzureBlobImgUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CBB9FFD119266EA28EBC4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E2044555DCBA5E36226D452 /* Pods-AzureBlobImg.debug.xcconfig */,
+				41BD54167066A100F4C60388 /* Pods-AzureBlobImg.release.xcconfig */,
+				8F2FE09AEE535A4EF1548FAE /* Pods-AzureBlobImg-AzureBlobImgUITests.debug.xcconfig */,
+				0B4DD04C5A2149EBAE6839BC /* Pods-AzureBlobImg-AzureBlobImgUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1A8FCABD23D89D8000E9100B = {
+			isa = PBXGroup;
+			children = (
+				1A8FCAC823D89D8000E9100B /* AzureBlobImg */,
+				1A8FCADF23D89D8100E9100B /* AzureBlobImgUITests */,
+				1A8FCAC723D89D8000E9100B /* Products */,
+				07CBB9FFD119266EA28EBC4C /* Pods */,
+				364396C5E053AB2AF14A4C83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A8FCAC723D89D8000E9100B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A8FCAC623D89D8000E9100B /* AzureBlobImg.app */,
+				1A8FCADC23D89D8100E9100B /* AzureBlobImgUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A8FCAC823D89D8000E9100B /* AzureBlobImg */ = {
+			isa = PBXGroup;
+			children = (
+				1A8FCAC923D89D8000E9100B /* AppDelegate.swift */,
+				1A8FCACB23D89D8000E9100B /* SceneDelegate.swift */,
+				1A8FCACD23D89D8000E9100B /* ViewController.swift */,
+				1A8FCACF23D89D8000E9100B /* Main.storyboard */,
+				1A8FCAEB23D89EB400E9100B /* a.jpg */,
+				1A8FCAD223D89D8100E9100B /* Assets.xcassets */,
+				1A8FCAD423D89D8100E9100B /* LaunchScreen.storyboard */,
+				1A8FCAD723D89D8100E9100B /* Info.plist */,
+			);
+			path = AzureBlobImg;
+			sourceTree = "<group>";
+		};
+		1A8FCADF23D89D8100E9100B /* AzureBlobImgUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8FCAE023D89D8100E9100B /* AzureBlobImgUITests.swift */,
+				1A8FCAE223D89D8100E9100B /* Info.plist */,
+			);
+			path = AzureBlobImgUITests;
+			sourceTree = "<group>";
+		};
+		364396C5E053AB2AF14A4C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F0589A917AD76048548356C /* Pods_AzureBlobImg.framework */,
+				98B9270145A764D685098B12 /* Pods_AzureBlobImg_AzureBlobImgUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A8FCAC523D89D8000E9100B /* AzureBlobImg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8FCAE523D89D8100E9100B /* Build configuration list for PBXNativeTarget "AzureBlobImg" */;
+			buildPhases = (
+				53D61C73D56D60D1689B566B /* [CP] Check Pods Manifest.lock */,
+				1A8FCAC223D89D8000E9100B /* Sources */,
+				1A8FCAC323D89D8000E9100B /* Frameworks */,
+				1A8FCAC423D89D8000E9100B /* Resources */,
+				9EED4F94A35213DE6B004907 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzureBlobImg;
+			productName = AzureBlobImg;
+			productReference = 1A8FCAC623D89D8000E9100B /* AzureBlobImg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A8FCADB23D89D8100E9100B /* AzureBlobImgUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8FCAE823D89D8100E9100B /* Build configuration list for PBXNativeTarget "AzureBlobImgUITests" */;
+			buildPhases = (
+				7F1A7074E1F8109A1E6D93CE /* [CP] Check Pods Manifest.lock */,
+				1A8FCAD823D89D8100E9100B /* Sources */,
+				1A8FCAD923D89D8100E9100B /* Frameworks */,
+				1A8FCADA23D89D8100E9100B /* Resources */,
+				BD0C46C56FA5355F15C796E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8FCADE23D89D8100E9100B /* PBXTargetDependency */,
+			);
+			name = AzureBlobImgUITests;
+			productName = AzureBlobImgUITests;
+			productReference = 1A8FCADC23D89D8100E9100B /* AzureBlobImgUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A8FCABE23D89D8000E9100B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "JiWon Ju";
+				TargetAttributes = {
+					1A8FCAC523D89D8000E9100B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1A8FCADB23D89D8100E9100B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1A8FCAC523D89D8000E9100B;
+					};
+				};
+			};
+			buildConfigurationList = 1A8FCAC123D89D8000E9100B /* Build configuration list for PBXProject "AzureBlobImg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A8FCABD23D89D8000E9100B;
+			productRefGroup = 1A8FCAC723D89D8000E9100B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A8FCAC523D89D8000E9100B /* AzureBlobImg */,
+				1A8FCADB23D89D8100E9100B /* AzureBlobImgUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A8FCAC423D89D8000E9100B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8FCAD623D89D8100E9100B /* LaunchScreen.storyboard in Resources */,
+				1A8FCAD323D89D8100E9100B /* Assets.xcassets in Resources */,
+				1A8FCAD123D89D8000E9100B /* Main.storyboard in Resources */,
+				1A8FCAEC23D89EB400E9100B /* a.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8FCADA23D89D8100E9100B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53D61C73D56D60D1689B566B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzureBlobImg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1A7074E1F8109A1E6D93CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzureBlobImg-AzureBlobImgUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EED4F94A35213DE6B004907 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureBlobImg/Pods-AzureBlobImg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureBlobImg/Pods-AzureBlobImg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AzureBlobImg/Pods-AzureBlobImg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD0C46C56FA5355F15C796E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureBlobImg-AzureBlobImgUITests/Pods-AzureBlobImg-AzureBlobImgUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureBlobImg-AzureBlobImgUITests/Pods-AzureBlobImg-AzureBlobImgUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AzureBlobImg-AzureBlobImgUITests/Pods-AzureBlobImg-AzureBlobImgUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8FCAC223D89D8000E9100B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8FCACE23D89D8000E9100B /* ViewController.swift in Sources */,
+				1A8FCACA23D89D8000E9100B /* AppDelegate.swift in Sources */,
+				1A8FCACC23D89D8000E9100B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8FCAD823D89D8100E9100B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8FCAE123D89D8100E9100B /* AzureBlobImgUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A8FCADE23D89D8100E9100B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A8FCAC523D89D8000E9100B /* AzureBlobImg */;
+			targetProxy = 1A8FCADD23D89D8100E9100B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A8FCACF23D89D8000E9100B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8FCAD023D89D8000E9100B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A8FCAD423D89D8100E9100B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8FCAD523D89D8100E9100B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A8FCAE323D89D8100E9100B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A8FCAE423D89D8100E9100B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A8FCAE623D89D8100E9100B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2044555DCBA5E36226D452 /* Pods-AzureBlobImg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HABS9G2G5;
+				INFOPLIST_FILE = AzureBlobImg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codingstr.AzureBlobImg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A8FCAE723D89D8100E9100B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BD54167066A100F4C60388 /* Pods-AzureBlobImg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HABS9G2G5;
+				INFOPLIST_FILE = AzureBlobImg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codingstr.AzureBlobImg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A8FCAE923D89D8100E9100B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2FE09AEE535A4EF1548FAE /* Pods-AzureBlobImg-AzureBlobImgUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HABS9G2G5;
+				INFOPLIST_FILE = AzureBlobImgUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codingstr.AzureBlobImgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AzureBlobImg;
+			};
+			name = Debug;
+		};
+		1A8FCAEA23D89D8100E9100B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4DD04C5A2149EBAE6839BC /* Pods-AzureBlobImg-AzureBlobImgUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HABS9G2G5;
+				INFOPLIST_FILE = AzureBlobImgUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codingstr.AzureBlobImgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AzureBlobImg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A8FCAC123D89D8000E9100B /* Build configuration list for PBXProject "AzureBlobImg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8FCAE323D89D8100E9100B /* Debug */,
+				1A8FCAE423D89D8100E9100B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8FCAE523D89D8100E9100B /* Build configuration list for PBXNativeTarget "AzureBlobImg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8FCAE623D89D8100E9100B /* Debug */,
+				1A8FCAE723D89D8100E9100B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8FCAE823D89D8100E9100B /* Build configuration list for PBXNativeTarget "AzureBlobImgUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8FCAE923D89D8100E9100B /* Debug */,
+				1A8FCAEA23D89D8100E9100B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A8FCABE23D89D8000E9100B /* Project object */;
+}

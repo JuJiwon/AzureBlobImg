@@ -1,0 +1,6 @@
+framework module Pods_AzureBlobImg_AzureBlobImgUITests {
+  umbrella header "Pods-AzureBlobImg-AzureBlobImgUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
